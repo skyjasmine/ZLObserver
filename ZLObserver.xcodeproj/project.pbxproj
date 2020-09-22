@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962D3E4825160672000C7583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E4725160672000C7583 /* main.m */; };
+		965B629E25160AFD00703E2E /* ZLWeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B629D25160AFD00703E2E /* ZLWeatherData.m */; };
+		965B62A125184F8E00703E2E /* ZLCurrentConditionsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62A025184F8E00703E2E /* ZLCurrentConditionsDisplay.m */; };
+		965B62A42518521800703E2E /* ZLWeatherStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62A32518521800703E2E /* ZLWeatherStation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		962D3E4225160672000C7583 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		962D3E4425160672000C7583 /* ZLObserver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZLObserver; sourceTree = BUILT_PRODUCTS_DIR; };
+		962D3E4725160672000C7583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962D3E5125160873000C7583 /* ZLObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLObserver.h; sourceTree = "<group>"; };
+		962D3E522516090E000C7583 /* ZLDisplayElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLDisplayElement.h; sourceTree = "<group>"; };
+		962D3E5325160946000C7583 /* ZLSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSubject.h; sourceTree = "<group>"; };
+		965B629C25160AFD00703E2E /* ZLWeatherData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLWeatherData.h; sourceTree = "<group>"; };
+		965B629D25160AFD00703E2E /* ZLWeatherData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLWeatherData.m; sourceTree = "<group>"; };
+		965B629F25184F8E00703E2E /* ZLCurrentConditionsDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCurrentConditionsDisplay.h; sourceTree = "<group>"; };
+		965B62A025184F8E00703E2E /* ZLCurrentConditionsDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCurrentConditionsDisplay.m; sourceTree = "<group>"; };
+		965B62A22518521800703E2E /* ZLWeatherStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLWeatherStation.h; sourceTree = "<group>"; };
+		965B62A32518521800703E2E /* ZLWeatherStation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLWeatherStation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962D3E4125160672000C7583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962D3E3B25160672000C7583 = {
+			isa = PBXGroup;
+			children = (
+				962D3E4625160672000C7583 /* ZLObserver */,
+				962D3E4525160672000C7583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		962D3E4525160672000C7583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962D3E4425160672000C7583 /* ZLObserver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962D3E4625160672000C7583 /* ZLObserver */ = {
+			isa = PBXGroup;
+			children = (
+				962D3E4725160672000C7583 /* main.m */,
+				962D3E5125160873000C7583 /* ZLObserver.h */,
+				962D3E522516090E000C7583 /* ZLDisplayElement.h */,
+				962D3E5325160946000C7583 /* ZLSubject.h */,
+				965B629C25160AFD00703E2E /* ZLWeatherData.h */,
+				965B629D25160AFD00703E2E /* ZLWeatherData.m */,
+				965B629F25184F8E00703E2E /* ZLCurrentConditionsDisplay.h */,
+				965B62A025184F8E00703E2E /* ZLCurrentConditionsDisplay.m */,
+				965B62A22518521800703E2E /* ZLWeatherStation.h */,
+				965B62A32518521800703E2E /* ZLWeatherStation.m */,
+			);
+			path = ZLObserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962D3E4325160672000C7583 /* ZLObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962D3E4B25160672000C7583 /* Build configuration list for PBXNativeTarget "ZLObserver" */;
+			buildPhases = (
+				962D3E4025160672000C7583 /* Sources */,
+				962D3E4125160672000C7583 /* Frameworks */,
+				962D3E4225160672000C7583 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLObserver;
+			productName = ZLObserver;
+			productReference = 962D3E4425160672000C7583 /* ZLObserver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962D3E3C25160672000C7583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = DingTalk;
+				TargetAttributes = {
+					962D3E4325160672000C7583 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 962D3E3F25160672000C7583 /* Build configuration list for PBXProject "ZLObserver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962D3E3B25160672000C7583;
+			productRefGroup = 962D3E4525160672000C7583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962D3E4325160672000C7583 /* ZLObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962D3E4025160672000C7583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B629E25160AFD00703E2E /* ZLWeatherData.m in Sources */,
+				965B62A42518521800703E2E /* ZLWeatherStation.m in Sources */,
+				965B62A125184F8E00703E2E /* ZLCurrentConditionsDisplay.m in Sources */,
+				962D3E4825160672000C7583 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		962D3E4925160672000C7583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		962D3E4A25160672000C7583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		962D3E4C25160672000C7583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962D3E4D25160672000C7583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962D3E3F25160672000C7583 /* Build configuration list for PBXProject "ZLObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962D3E4925160672000C7583 /* Debug */,
+				962D3E4A25160672000C7583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962D3E4B25160672000C7583 /* Build configuration list for PBXNativeTarget "ZLObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962D3E4C25160672000C7583 /* Debug */,
+				962D3E4D25160672000C7583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962D3E3C25160672000C7583 /* Project object */;
+}
