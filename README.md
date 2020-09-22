@@ -1,2 +1,2 @@
 # ZLObserver
-Observer strategy exercise.
+Observer pattern exercise.
